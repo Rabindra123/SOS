@@ -153,7 +153,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//1st commit
 
 - (IBAction)didTapOpenMenu:(id)sender {
     [[SlideNavigationController sharedInstance]leftMenuSelected:nil ];

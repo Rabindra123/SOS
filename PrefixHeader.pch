@@ -1,0 +1,58 @@
+//
+//  PrefixHeader.pch
+//  sos
+//
+//  Created by Alok Das on 02/02/17.
+//  Copyright © 2017 Ogma Conceptions. All rights reserved.
+//
+
+//AIzaSyBcZA1r6vM6mhF9_-jf-ADzqVzkHYJs5z4     Google APi Key
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <QuartzCore/QuartzCore.h>
+#import "TOCropViewController.h"
+#import "LoginViewController.h"
+#import "PatientRegistrationViewController.h"
+#import "AFURLRequestSerialization.h"
+#import "AFHTTPRequestOperationManager.h"
+#import "AFURLResponseSerialization.h"
+#import "SVProgressHUD.h"
+#import "ProviderLoginViewController.h"
+#import "ProviderRegistrationViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "PatientPaymentViewController.h"
+#import "SidebarMenuController.h"
+#import "SlideNavigationController.h"
+#import <CoreLocation/CoreLocation.h>
+#import "ForgotpasswordController.h"
+#import "PatientDashboardController.h"
+#import "ProviderDashboardController.h"
+#import "locationCell.h"
+#import "CardDetailsController.h"
+#import "PatientPaymentViewController.h"
+#import "ProviderHistoryController.h"
+#import "HistoryCell.h"
+#import "UIView+Toast.h"
+#import "DoctorBookingController.h"
+#import "DoctorRatingController.h"
+#import "NIDropDown.h"
+#import "PatientProfileController.h"
+#import "DoctroProfileController.h"
+#import "RateView.h"
+#import "PatientBookingConfirmationController.h"
+#import "VisitConfirmedController.h"
+#import "DoctorAcceptRquestController.h"
+#import "ConfirmCell.h"
+#import "CancelCell.h"
+#import "VisitCompleteCell.h"
+#import "ArchiveController.h"
+#import "ArchiveCell.h"
+#import "ContactController.h"
+
+#import "DGActivityIndicatorView.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
